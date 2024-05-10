@@ -24,7 +24,7 @@ public class GoodsDatabase {
 
    public ArrayList<Listing> getAllListings() {
       // TODO: Implement
-      return new ArrayList<Listing>();
+      return goods;
    }
 
    public ArrayList<Listing> getListingsByTitle(String title) {

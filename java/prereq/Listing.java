@@ -11,6 +11,10 @@ public class Listing {
    public String getTitle() {
       return title;
    }
+
+   public double getPrice() {
+      return price;
+   }
    
    public void printInfo() {
       // TODO: Complete this to print out the information of the Listing
